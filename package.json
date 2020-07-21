@@ -1,0 +1,28 @@
+{
+  "name": "readme-gen",
+  "version": "1.0.0",
+  "description": "generate a readme file using node js and inquirer. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Neil Dino",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NGDino/readme-generator.git"
+  },
+  "keywords": [
+    "readme",
+    "node",
+    "coding",
+    "bootcamp"
+  ],
+  "bugs": {
+    "url": "https://github.com/NGDino/readme-generator/issues"
+  },
+  "homepage": "https://github.com/NGDino/readme-generator#readme"
+}
