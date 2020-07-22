@@ -1,7 +1,7 @@
 const inquirer = require('inquirer')
 
-// const fs = require('fs');
-// const generatePage = require('./utils/generateMarkdown');
+const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // array of questions for user
 
@@ -54,23 +54,21 @@ const questions = () => {
             name: 'email',
             message: 'What is your email address?',
         },
-        
+
     ])
-    
+
 }
 
 
-// // function to write README file
-// function writeToFile(fileName, data) {
-// }
 
-// // function to initialize program
-// function init() {
-
-// }
-
-// // function call to initialize program
+// function call to initialize program
 questions()
 
-  .then(answers => console.log(answers));
-  
+  .then(answers => {
+      const markdown = generateMarkdown(answers) 
+      fs.writeFile('readme.md', markdown, (err) => {
+          if (err) throw err;
+          console.log('The file has been saved')
+      })
+})
+  ;
