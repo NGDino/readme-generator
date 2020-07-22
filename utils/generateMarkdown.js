@@ -9,10 +9,11 @@ function generateMarkdown(data) {
 
   ## Table of Contents
 
-  * [Installation
-  * Usage
-  * Credits
-  * License
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributions](#contributions)
+  * [License](#license)
+  * [Questions](#questions)
   
   ##Installation
 
@@ -33,7 +34,7 @@ function generateMarkdown(data) {
   ## Questions
 
   [Github](https://github.com/${data.github})
-
+  Email me: ${data.email}
 `;
 }
 
