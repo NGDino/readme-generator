@@ -1,6 +1,11 @@
 // function to generate markdown for README
-function generateMarkdown(data) {
+// function licenseBadge(data){
+//   console.log (data.license)
+// }
+
+function generateMarkdown(data,licenseMarkdown) {
   return `
+  ${licenseMarkdown}
   # ${data.title}
 
   ## Description
@@ -15,7 +20,7 @@ function generateMarkdown(data) {
   * [License](#license)
   * [Questions](#questions)
   
-  ##Installation
+  ## Installation
 
   ${data.installation}
 
@@ -34,6 +39,7 @@ function generateMarkdown(data) {
   ## Questions
 
   [Github](https://github.com/${data.github})
+  
   Email me: ${data.email}
 `;
 }
