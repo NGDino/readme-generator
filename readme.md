@@ -9,7 +9,7 @@
   ## Image
   Here is an example of the Readme prompt
 
-  ![inquirer example](img\inquirer-ex.jpg)
+  ![inquirer example](img/inquirer-ex.jpg)
 
   Here is an example of the generated Readme:
 
