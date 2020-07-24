@@ -1,33 +1,26 @@
 
-  # a
+  # Readme Generator
 
   ## Description
+  This project for UC Berkeley Extension's Full Stack Web Development course is a professional readme generator.  I used Node along with the inquirer and FS packages.  
+  When node index is typed into the console it will take you through a series of questions.  Once completed that data will be used to write a readme file.  The markdown template is on a different JS file where it will take in the the data and dynamically generate a professional Readme using proper Markdown to look good.  The links in the Readme's table of contents will navigate to different sections of my readme.  
+  The git hub link will direct you to the github for the given username, and the email link will open a new email in your email server.  
 
-  b
+  ## Image
+  Here is an example of the Readme prompt
 
-  ## Table of Contents
+  ![inquirer example](img\inquirer-ex.jpg)
 
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Contributions](#contributions)
-  * [License](#license)
-  * [Questions](#questions)
-  
-  ##Installation
+  Here is an example of the generated Readme:
 
-  c
+  ![Readme markdown](img/readme-ex.jpg)
 
-  ## Usage
+  ## Video
 
-  d
+  Link to my video explaining project:
 
-  ## Contributions
+  https://youtu.be/BivBMRq0e_w
 
-  n
-
-  ## License 
-  
-  Licensed under the ISC license
 
   ## Questions
 
